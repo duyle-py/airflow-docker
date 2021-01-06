@@ -26,4 +26,4 @@ make airflow-prod
 ```
 
 ## To do
-[] Auto refresh DAGs without build Docker Image agin in Production Environment
+[x] Auto refresh DAGs without build Docker Image agin in Production Environment

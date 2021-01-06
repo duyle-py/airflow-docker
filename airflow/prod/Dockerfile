@@ -8,6 +8,4 @@ WORKDIR /root/airflow
 
 COPY airflow/dev/airflow.cfg .
 
-COPY dags dags
-
 CMD ["sh", "-c", "airflow db init ; airflow webserver & airflow scheduler"]
