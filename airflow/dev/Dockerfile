@@ -6,9 +6,9 @@ RUN pip install apache-airflow==2.0.0
 
 WORKDIR /root/airflow
 
-COPY env/dev/airflow.cfg .
+COPY airflow/dev/airflow.cfg .
 
-COPY env/dev/airflow.db .
+COPY airflow/dev/airflow.db .
 
 COPY dags dags
 

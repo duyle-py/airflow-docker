@@ -6,7 +6,7 @@ RUN pip install 'apache-airflow-providers-postgres'==1.0.0
 
 WORKDIR /root/airflow
 
-COPY env/dev/airflow.cfg .
+COPY airflow/dev/airflow.cfg .
 
 COPY dags dags
 
